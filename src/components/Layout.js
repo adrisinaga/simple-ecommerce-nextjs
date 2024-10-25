@@ -6,7 +6,7 @@ export default function Layout({ children }) {
     return (
         <>
             <Header />
-            <main>
+            <main className="flex justify-center max-w-screen-xl mx-auto mt-20 p-1">
                 {children}
             </main>
             <Footer />

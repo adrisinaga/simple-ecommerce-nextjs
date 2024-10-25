@@ -24,7 +24,7 @@ header{
   padding: 10px 0;
   margin-right: 5px;
   align-items: center;
-  background: skyblue;
+  /* background: skyblue; */
 }
 
 main{
@@ -37,9 +37,12 @@ footer{
 }
 
 a{
-  color: red;
+  color: cornflowerblue;
   padding: 10px;
   text-decoration: none;
+}
+a:hover{
+  color: salmon;
 }
 
 .product-list{
